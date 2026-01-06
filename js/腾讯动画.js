@@ -1,0 +1,47 @@
+var rule = {
+    title:'腾云驾雾',
+    host:'https://v.qq.com',
+    homeUrl:'/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    detailUrl:'https://node.video.qq.com/x/api/float_vinfo2?cid=fyid',
+    searchUrl:'/x/search/?q=**&stag=fypage',
+    searchable:2,
+    filterable:1,
+    multi:1,
+    url:'/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
+    filter_url:'sort={{fl.sort or 18}}&year={{fl.year}}&pay={{fl.pay}}',
+    
+    filter:{
+        'choice': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'tv': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'movie': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'variety': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'cartoon': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'child': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}],
+        'doco': [{'key': 'sort', 'name': '排序', 'value': [{'n': '最热', 'v': '18'}, {'n': '最新', 'v': '19'}, {'n': '好评', 'v': '16'}, {'n': '高分好评', 'v': '21'}]}, {'key': 'pay', 'name': '资费', 'value': [{'n': '全部', 'v': '-1'}, {'n': '免费', 'v': '867'}, {'n': '会员', 'v': '6'}]}, {'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}]}]
+    },
+    
+    headers:{
+        'User-Agent':'PC_UA'
+    },
+    timeout:5000,
+    cate_exclude:'会员|游戏|全部',
+    class_name:'少儿&动漫',
+    class_url:'child&cartoon',
+    limit:20,
+    
+    // ================== 修正解析配置 ==================
+    // 方案1：使用TVBox自动解析（推荐）
+    play_parse: true,  // 开启解析
+    lazy: '',  // 留空，让TVBox自动选择解析器
+    
+    // 方案2：如果需要自定义解析，可以像奇艺动画那样添加播放字段
+    // 播放:'js:log("播放地址："+input);let params={parse:1,url:input,header:"",jx:0};let flag=VOD.vod_play_from||"";if(flag&&flag.includes("qq")||flag.includes("腾讯")){params.parse=1;params.url=input;params.header="";params.jx=0;log("使用TVBox解析器播放腾讯视频");}else{params.parse=0;params.url=input;log("直接播放");}JSON.stringify(params)',
+    
+    一级:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    
+    // 二级解析逻辑
+    二级:'js:VOD={};let d=[];let video_list=[];let video_lists=[];let list=[];let QZOutputJson;let html=fetch(input,fetch_params);let sourceId=/get_playsource/.test(input)?input.match(/id=(\\d*?)&/)[1]:input.split("cid=")[1];let cid=sourceId;let detailUrl="https://v.qq.com/detail/m/"+cid+".html";log("详情页:"+detailUrl);var pdfh=jsp.pdfh;var pd=jsp.pd;try{let json=JSON.parse(html);VOD={vod_url:input,vod_name:json.c.title,type_name:json.typ.join(","),vod_actor:json.nam.join(","),vod_year:json.c.year,vod_content:json.c.description,vod_remarks:json.rec,vod_pic:urljoin2(input,json.c.pic)}}catch(e){log("解析片名海报等基础信息发生错误:"+e.message)}if(/get_playsource/.test(input)){eval(html);let indexList=QZOutputJson.PlaylistItem.indexList;indexList.forEach(function(it){let dataUrl="https://s.video.qq.com/get_playsource?id="+sourceId+"&plat=2&type=4&data_type=3&range="+it+"&video_type=10&plname=qq&otype=json";eval(fetch(dataUrl,fetch_params));let vdata=QZOutputJson.PlaylistItem.videoPlayList;vdata.forEach(function(item){d.push({title:item.title,pic_url:item.pic,desc:item.episode_number+"\\t\\t\\t播放量："+item.thirdLine,url:item.playUrl})});video_lists=video_lists.concat(vdata)})}else{let json=JSON.parse(html);video_lists=json.c.video_ids;let url="https://v.qq.com/x/cover/"+sourceId+".html";if(video_lists.length===1){let vid=video_lists[0];url="https://v.qq.com/x/cover/"+cid+"/"+vid+".html";d.push({title:"在线播放",url:url})}else if(video_lists.length>1){for(let i=0;i<video_lists.length;i+=30){video_list.push(video_lists.slice(i,i+30))}video_list.forEach(function(it,idex){let o_url="https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&idlist="+it.join(",");let o_html=fetch(o_url,fetch_params);eval(o_html);QZOutputJson.results.forEach(function(it1){it1=it1.fields;let url="https://v.qq.com/x/cover/"+cid+"/"+it1.vid+".html";d.push({title:it1.title,pic_url:it1.pic160x90.replace("/160",""),desc:it1.video_checkup_time,url:url,type:it1.category_map&&it1.category_map.length>1?it1.category_map[1]:""})})})}}let yg=d.filter(function(it){return it.type&&it.type!=="正片"});let zp=d.filter(function(it){return!(it.type&&it.type!=="正片")});VOD.vod_play_from=yg.length<1?"qq":"qq$$$qq 预告及花絮";VOD.vod_play_url=yg.length<1?d.map(function(it){return it.title+"$"+it.url}).join("#"):[zp,yg].map(function(it){return it.map(function(its){return its.title+"$"+its.url}).join("#")}).join("$$$");',
+    
+    // 改进的搜索逻辑，基于企鹅.py
+    搜索:'js:let d=[];fetch_params.headers["User-Agent"]="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5410.0 Safari/537.36";fetch_params.headers["origin"]="https://v.qq.com";fetch_params.headers["referer"]="https://v.qq.com/";let body={"version":"24072901","clientType":1,"filterValue":"","uuid":"", "retry":0,"query":input.split("q=")[1].split("&")[0],"pagenum":parseInt(input.match(/stag=(\d+)/)?input.match(/stag=(\d+)/)[1]:1)-1,"pagesize":30,"queryFrom":0,"searchDatakey":"","transInfo":"","isneedQc":true,"preQid":"","adClientInfo":"","extraInfo":{"isNewMarkLabel":"1","multi_terminal_pc":"1"}};let uuid=Math.random().toString(36).substring(2)+(new Date().getTime()).toString(36);body.uuid=uuid;let searchData=JSON.parse(fetch("https://pbaccess.video.qq.com/trpc.videosearch.mobile_search.MultiTerminalSearch/MbSearch?vplatform=2",{method:"POST",body:JSON.stringify(body),headers:fetch_params.headers}));if(searchData.data&&searchData.data.areaBoxList){let areaBoxList=searchData.data.areaBoxList;if(areaBoxList.length>0){let itemList=areaBoxList[areaBoxList.length-1].itemList;for(let k of itemList){if(k.doc&&k.doc.id){let img_tag=k.videoInfo&&k.videoInfo.imgTag;let tag={};if(img_tag){try{tag=JSON.parse(img_tag);}catch(e){tag={};}}else{tag={};}let pic=k.videoInfo&&k.videoInfo.imgUrl;d.push({title:k.videoInfo.title||"",img:pic,desc:tag.tag_4&&tag.tag_4.text?tag.tag_4.text:"",url:"https://node.video.qq.com/x/api/float_vinfo2?cid="+k.doc.id});}}}}setResult(d);'
+}
