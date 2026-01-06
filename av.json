@@ -131,7 +131,7 @@
     "key": "采密",
     "name": "🍯采密",
     "type": 3,
-    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
+    "api": "https://ghproxy.net/https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
@@ -1863,3 +1863,4 @@
     ]
 
 }
+
