@@ -136,7 +136,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "order_num": 1,
-    "ext": "https://d.kstore.dev/download/13922/my/avjs/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B%5B%E5%90%88%5D.js?type=url&params=.https://d.kstore.dev/download/13922/my/avjs/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json"
+    "ext": "https://d.kstore.dev/download/13922/my/avjs/%E9%87%87%E9%9B%86%E4%B9%8B%E7%8E%8B%5B%E5%90%88%5D.js?type=url&params=https://d.kstore.dev/download/13922/my/avjs/%E9%87%87%E9%9B%86%E9%9D%99%E6%80%81.json"
   },
   {
     "key": "4K網资源库",
@@ -1863,5 +1863,6 @@
     ]
 
 }
+
 
 
