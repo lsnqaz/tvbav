@@ -48,7 +48,7 @@
   "key": "meowtv_mgdh",
   "name": "😻芒果动画😻",
   "type": 3,
-  "api": "./drpy_libs/drpy2.min.js",
+  "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 1,
@@ -56,10 +56,10 @@
   "ext": "./js/芒果动画.js"
 },
 {
-  "key": "meowtv_qydh",
+  "key": "meowtv_qydh",H
   "name": "🤩奇艺动画🤩",
   "type": 3,
-  "api": "./drpy_libs/drpy2.min.js",
+  "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 1,
@@ -70,7 +70,7 @@
   "key": "meowtv_txdh",
   "name": "🦄腾讯动画🦄",
   "type": 3,
-  "api": "./drpy_libs/drpy2.min.js",
+  "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 1,
@@ -169,7 +169,7 @@
     "key": "虎牙",
     "name": "🐯虎牙｜直播",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
@@ -179,7 +179,7 @@
     "key": "斗鱼js",
     "name": "🐟斗鱼｜直播",
     "type": 3,
-    "api": "./drpy_libs/drpy22.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "ext": "./js/斗鱼直播.js",
     "style": {
       "type": "rect",
@@ -314,7 +314,7 @@
     "key": "GZAPP",
     "name": "🥒瓜子APP",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
@@ -437,21 +437,21 @@
     "key": "芒果视频",
     "name": "🥭芒果视频",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "ext": "./js/芒果视频.js"
 },
 {
     "key": "爱奇艺",
     "name": "❤️爱奇艺",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "ext": "./js/爱奇艺.js"
   },
   {
     "key": "片吧影院",
     "name": "💿片吧影视",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
@@ -1236,7 +1236,7 @@
     "key": "采集之王",
     "name": "👑采集之王",
     "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
+    "api": "https://raw.githubusercontent.com/lsnqaz/tvbav/refs/heads/main/drpy_libs/drpy2.min.js",
     "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
   },
   {
@@ -2618,4 +2618,5 @@
     "ads": [
         "static-mozai.4gtv.tv"
     ]
+
 }
