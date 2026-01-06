@@ -1,0 +1,103 @@
+[
+{
+        "name": "推荐",
+        "list": [
+            {
+                "name": "DongliTV",
+                "url": "https://raw.githubusercontent.com/anlanemo/Release/tvgo/apk/leanback-armeabi_v7a_clone.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "电视32位"
+            },
+            {
+                "name": "DongliTV",
+                "url": "https://raw.githubusercontent.com/anlanemo/Release/tvgo/apk/leanback-arm64_v8a_clone.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "电视64位"
+            },
+            {
+                "name": "DongliTV",
+                "url": "https://raw.githubusercontent.com/anlanemo/Release/tvgo/apk/mobile-armeabi_v7a_clone.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "手机32位"
+            },
+            {
+                "name": "DongliTV",
+                "url": "https://raw.githubusercontent.com/anlanemo/Release/tvgo/apk/mobile-arm64_v8a_clone.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "手机64位"
+            }
+        ]
+    },
+    {
+        "name": "蜂蜜影视",
+        "list": [
+            {
+                "name": "蜂蜜影视",
+                "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "电视32位"
+            },
+            {
+                "name": "蜂蜜影视",
+                "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "电视64位"
+            },
+            {
+                "name": "蜂蜜影视",
+                "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "手机32位"
+            },
+              {
+                "name": "蜂蜜影视",
+                "url": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "version": "手机64位"
+            }
+        ]
+    },
+    {
+        "name": "OK影视",
+        "list": [
+            {
+                "name": "OK影视",
+                "url": "http://xw.123234567.xyz:60255/jiduo/OKTV32.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo1.png",
+                "version": "电视32位"
+            },
+            {
+                "name": "OK影视",
+                "url": "http://xw.123234567.xyz:60255/jiduo/OKTV64.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo1.png",
+                "version": "电视64位"
+            },
+             {
+                "name": "ok影视",
+                "url": "http://xw.123234567.xyz:60255/jiduo/OKSJ64.apk",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo1.png",
+                "version": "手机64位"
+            }
+           
+        ]
+    },
+    {
+        "name": "本地包",
+        "list": [
+            {
+                "name": "东篱",
+                "url": "",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "copy": "",
+                "version": "占位"
+            },
+            {
+                "name": "暂无",
+                "url": "",
+                "icon": "http://127.0.0.1:9978/file/dp/assets/logo.png",
+                "copy": "",
+                "version": "占位"
+            }
+        ]
+    }
+]
