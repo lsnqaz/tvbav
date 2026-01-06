@@ -1,0 +1,11 @@
+{
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "http://www.viptv01.com/vod/type/id/{cateId}/page/{catePg}.html",
+        "详情url": "http://www.viptv01.com/vod/detail/id/{vid}.html",
+        "播放url": "http://www.viptv01.com/vod/play/id/{vid}/sid/{sid}/nid/{nid}.html",
+        "分类": "港台剧$14#电影$1#大陆综艺$21#香港综艺$22#日韩综艺$23",
+        "主页": "http://www.viptv01.com",
+        "域名自动切换": 1,
+        "备用域名":"http://www.viptv03.com"
+        }
