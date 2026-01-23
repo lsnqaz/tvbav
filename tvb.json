@@ -1162,6 +1162,28 @@
     },
     "timeout": 10
   },
+            {  "name": "🪜YOU视",
+            "key": "📹YOU🪜",
+            "type": 3,
+            "api": "csp_YouSPAmns",
+            "jar": "./jar/bdb.png",
+            "searchable": 1,
+            "filterable": 1,
+            "ext": "1",
+            "quickSearch": 1,
+            "changeable": 1
+        },
+  {
+            "key": "🛳️亦凡",
+            "name": "🛳️亦凡",
+            "type": 3,
+            "api": "./py/爱一帆.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
   {
     "name": "🏆高端 | 拾光",
     "key": "拾光高端",
@@ -1276,6 +1298,19 @@
     "quickSearch": 1,
     "changeable": 1
   },
+  {
+            "key": "PY合集",
+            "name": "👊PY合集",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/py.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
   {
     "key": "采集之王",
     "name": "👑采集之王",
