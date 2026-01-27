@@ -45,17 +45,6 @@
     }
   },
 {
-  "key": "meowtv_mgdh",
-  "name": "😻芒果动画😻",
-  "type": 3,
-  "api": "./drpy_libs/drpy2.min.js",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "playerType": 2,
-  "ext": "./js/芒果动画.js"
-},
-{
   "key": "meowtv_qydh",
   "name": "🤩奇艺动画🤩",
   "type": 3,
@@ -76,6 +65,17 @@
   "filterable": 1,
   "playerType": 2,
   "ext": "./js/腾讯动画.js"
+},
+{
+  "key": "meowtv_mgdh",
+  "name": "😻芒果动画😻",
+  "type": 3,
+  "api": "./drpy_libs/drpy2.min.js",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "playerType": 2,
+  "ext": "./js/芒果动画.js"
 },
   {
     "key": "csp_XYQHiker_兔小贝",
@@ -166,30 +166,29 @@
     "ext": "./biliext/高中课堂.json"
   },
   {
-    "key": "虎牙",
-    "name": "🐯虎牙｜直播",
-    "type": 3,
-    "api": "./drpy_libs/drpy2.min.js",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "./js/虎牙直播.js"
-  },
-  {
-    "key": "斗鱼js",
-    "name": "🐟斗鱼｜直播",
-    "type": 3,
-    "api": "./drpy_libs/drpy22.min.js",
-    "ext": "./js/斗鱼直播.js",
-    "style": {
-      "type": "rect",
-      "ratio": 1.755
-    },
-    "playerType": "2",
-    "searchable": 1,
-    "quickSearch": 1,
-    "changeable": 0
-  },
+            "key": "Huya",
+            "name": "🐯『虎牙｜直播』",
+            "type": 3,
+            "api": "csp_Huya",
+            "searchable": 1,
+            "quickSearch": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "Douyu",
+            "name": "🐟『斗鱼｜直播』",
+            "type": 3,
+            "api": "csp_Douyu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
   {
             "key": "👾短剧聚合",
             "name": "👾短剧聚合",
@@ -504,7 +503,7 @@
   },
   {
   "key": "剧评",
-  "name": "🎞️剧评4K┃影视",
+  "name": "🎞️剧评4K┃巧技",
   "type": 3,
   "jar": "./jar/qiaoji.jar",
   "api": "csp_Jpys",
@@ -513,7 +512,7 @@
   },
   {
     "key": "Dygang",
-    "name": "🎞️电影港┃影视",
+    "name": "🎞️电影港┃巧技",
     "type": 3,
     "jar": "./jar/qiaoji.jar",
     "api": "csp_Dygang",
@@ -521,6 +520,22 @@
     "quickSearch": 1,
     "filterable": 0
   },
+  {"key":"主角","name":"🏵️主角┃巧技",
+  "type":3,
+  "api":"csp_Xdai", 
+  "jar": "./jar/qiaoji.jar",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+  "playerType":2,"ext":"7lj763gg402i794246398hi3h9128893l4gji44ii5i7312k5l0k02k6l41k5509558245g38450hhj13634k58gjjgi0iiig761450hligki9j4738814gh66861j54j1g0i393g36l3k2hil10"},
+  {"key":"客星","name":"⭐客星┃巧技",
+  "type":3,
+  "api":"csp_Qiji",
+   "jar": "./jar/qiaoji.jar",
+     "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+  "playerType":2,"ext":"7lj763gg402i7942483l849kk10ljji4g6li98059ijj72225j5255l2k95g5i1h1g985ggj905j86ig3604gi80lgl30jk3hk637h53ghh385k83k9121g23jlk1915gig09glhl775217i9g443h49i3g51h3227k7gj367kk7iigl818k2lg6744i433j"},
   {
     "key": "电影天堂",
     "name": "🧲电影天堂 | 磁",
@@ -1752,13 +1767,41 @@
                 }
             }
         },
-{
-            "name": "大厂",
+              {
+            "name": "全能",
             "type": 0,
-            "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "flag": [
+                    "bilibili1",
+                    "qiyi",
+                    "imgo",
+                    "爱奇艺",
+                    "奇艺",
+                    "qq",
+                    "qq 预告及花絮",
+                    "腾讯",
+                    "youku",
+                    "优酷",
+                    "pptv",
+                    "PPTV",
+                    "letv",
+                    "乐视",
+                    "leshi",
+                    "mgtv",
+                    "芒果",
+                    "sohu",
+                    "xigua",
+                    "fun",
+                    "风行"
+                ],
+                "header": {
+                    "User-Agent": "User-Agent : Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "冰豆",
+            "name": "冰豆（芒果）",
             "type": 0,
             "url": "https://bd.jx.cn/?url=",
             "ext": {
@@ -1768,7 +1811,12 @@
             }
         },
         {
-            "name": "极速",
+            "name": "大厂",
+            "type": 0,
+            "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+        },
+        {
+            "name": "极速（画质低）",
             "type": 0,
             "url": "https://jx.2s0.cn/player/?url=",
             "ext": {
@@ -1837,42 +1885,7 @@
                 }
             }
         },
-
-        {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-        {"name":"巧技二","type":1,"url":"https://zy.qiaoji8.com/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-        {
-            "name": "全能",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "flag": [
-                    "bilibili1",
-                    "qiyi",
-                    "imgo",
-                    "爱奇艺",
-                    "奇艺",
-                    "qq",
-                    "qq 预告及花絮",
-                    "腾讯",
-                    "youku",
-                    "优酷",
-                    "pptv",
-                    "PPTV",
-                    "letv",
-                    "乐视",
-                    "leshi",
-                    "mgtv",
-                    "芒果",
-                    "sohu",
-                    "xigua",
-                    "fun",
-                    "风行"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.1.0"
-                }
-            }
-        },
+  
         {
             "name": "虾米哩",
             "type": 0,
