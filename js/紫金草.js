@@ -1,7 +1,7 @@
 {
     "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36||Referer$https://www.zjcvod.com/||Accept$*/*||Accept-Language$zh-CN,zh;q=0.9||Accept-Encoding$identity||Connection$keep-alive||Origin$https://www.zjcvod.com",
     "编码": "UTF-8",
-    "分类url": "https://www.zjcvod.com/vodtype/{cateId}.html",
+    "分类url": "https://www.zjcvod.com/vodtype/{cateId}/page/{catePg}.html",
     "详情url": "https://www.zjcvod.com/voddetail/{vid}.html",
     "播放url": "https://www.zjcvod.com/vodplay/{vid}-{play}-{page}.html",
     "分类": "连续剧$lianxuju#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju#少儿$shaoer#Netflix$Netflix#纪录片$jilupian",
