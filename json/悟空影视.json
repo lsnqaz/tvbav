@@ -1,0 +1,12 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "分类url": "https://wkvod.cc/type/{cateId}.html?page={catePg}",
+    "搜索url": "https://wkvod.cc/vodsearch.html?wd={wd}&page={searchPg}",
+    "详情url": "https://wkvod.cc/vod/{vid}.html",
+    "播放url": "https://wkvod.cc/play/{vid}-{sid}-{nid}.html",
+    "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi#短剧$duanju",
+    "主页": "https://wkvod.cc",
+    "域名自动切换": 1,
+    "备用域名": "https://www.kzvod.vip"
+}
